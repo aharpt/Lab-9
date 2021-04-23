@@ -1,0 +1,67 @@
+<?php include 'Quiz.php';?>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <form action="Quiz.php" method="post">
+        <!-- Question 1 -->
+        <p>Question 1: What is the Capital of Nebraska?</p>
+        <label for='omaha'>Omaha</label><input type='radio' id='omaha' name="question1" value="Omaha" />
+        <br>
+        <label for='lincoln'>Lincoln</label><input type='radio' id='lincoln' name="question1" value="Lincoln" />
+        <br>
+        <label for='nebraska-city'>Nebraska City</label><input type='radio' id='nebraska-city' name="question1" value="Nebraska City" />
+        <br>
+        <label for='grand-island'>Grand Island</label><input type='radio' id='grand-island' name="question1" value="Grand Island" />
+
+        <!-- Question 2 -->
+        <p>Question 2: What is the Capital of Kansas?</p>
+        <label for='topeka'>Topeka</label><input type='radio' id='topeka' name="question2" value="Topeka" />
+        <br>
+        <label for='wichita'>Wichita</label><input type='radio' id='wichita' name="question2" value="Wichita" />
+        <br>
+        <label for='edgerton'>Edgerton</label><input type='radio' id='edgerton' name="question2" value="Edgerton" />
+        <br>
+        <label for='olathe'>Olathe</label><input type='radio' id='olathe' name="question2" value="Olathe" />
+
+        <!-- Question 3 -->
+        <p>Question 3: What is the Capital of Missouri?</p>
+        <label for='kansas-city'>Kansas City</label><input type='radio' id='kansas-city' name="question3" value="Kansas City" />
+        <br>
+        <label for='jefferson-city'>Jefferson City</label><input type='radio' id='jefferson-city' name="question3" value="Jefferson City" />
+        <br>
+        <label for='lees-summit'>Lee's Summit</label><input type='radio' id='lees-summit' name="question3" value="Lee's Summit" />
+        <br>
+        <label for='raytown'>Raytown</label><input type='radio' id='raytown' name="question3" value="Raytown" />
+
+        <!-- Question 4 -->
+        <p>Question 4: What is the Capital of Oklahoma?</p>
+        <label for='oklahoma-city'>Oklahoma City</label><input type='radio' id='oklahoma-city' name="question4" value="Oklahoma City" />
+        <br>
+        <label for='tulsa'>Tulsa</label><input type='radio' id='tulsa' name="question4" value="Tulsa" />
+        <br>
+        <label for='norman'>Norman</label><input type='radio' id='norman' name="question4" value="Norman" />
+        <br>
+        <label for='edmond'>Edmond</label><input type='radio' id='edmond' name="question4" value="Edmond" />
+
+        <!-- Question 5 -->
+        <p>Question 5: What is the Capital of Texas?</p>
+        <label for='san-antonio'>San Antonio</label><input type='radio' id='san-antonio' name="question5" value="San Antonio" />
+        <br>
+        <label for='austin'>Austin</label><input type='radio' id='austin' name="question5" value="Austin" />
+        <br>
+        <label for='houston'>Houston</label><input type='radio' id='houston' name="question5" value="Houston" />
+        <br>
+        <label for='dallas'>Dallas</label><input type='radio' id='dallas' name="question5" value="Dallas" />
+        <br />
+
+        <button type='submit'>Submit Quiz</button>
+
+    </form>
+</body>
+</html>

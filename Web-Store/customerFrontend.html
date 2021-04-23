@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <form action="customerBackend.php" method="post">
+      <div class="loginInfo">
+        <div class="userDiv"><label for="username">Username:</label><input id="username" type="text" name="username" value=""><br /></div>
+        <div class="passDiv"><label for="password">Password:</label><input id="password" type="password" name="password" value=""><br /></div>
+      </div>
+
+
+      <div class="appleDiv"><label for="apples">Apples - $2.00/lb</label><input id="apples" type="text" name="apples" placeholder="Add quantity..."><br /></div>
+      <div class="bananaDiv"><label for="bananas">Bananas - $1.00/lb</label><input id="bananas" type="text" name="bananas" placeholder="Add quantity..."><br /></div>
+      <div class="pearDiv"><label for="pears">Pears - $1.50/lb</label><input id="pears" type="text" name="pears" placeholder="Add quantity..."><br /></div>
+
+      <div class="shippingOptions">
+        <h4>Shipping Options:</h4>
+        <label>Free 7 Day Shipping</label><input type="radio" name="shipping" value="7 Day">
+        <label>$5.00 3 Day Shipping</label><input type="radio" name="shipping" value="3 Day">
+        <label>$50.00 Over Night Shipping</label><input type="radio" name="shipping" value="Overnight">
+      </div>
+
+      <div>
+        <button id="submit" type="submit" name="submit">Submit</button>
+        <button id="reset" type="button" name="reset">Reset</button>
+      </div>
+    </form>
+    <script type="text/javascript" src="./formChecker.js"></script>
+  </body>
+</html>

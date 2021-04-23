@@ -1,0 +1,42 @@
+/* form labels, inputs */
+
+label, input {
+  margin-bottom: 10px;
+}
+
+label {
+  margin-right: 5px;
+}
+
+/* shipping options */
+
+.shippingOptions {
+  margin-bottom: 15px;
+}
+
+.shippingOptions label {
+  margin-right: 0px;
+}
+
+/* login info */
+
+.loginInfo {
+  margin-bottom: 15px;
+}
+
+/* form error class */
+
+.error {
+  margin-top: -5px;
+  color: red;
+}
+
+/* table */
+
+table {
+  border: 1px solid black;
+}
+
+td {
+  background-color: gray;
+}
