@@ -3,15 +3,11 @@ let submission = (event) => {
 
   // apples input
   let appleQuantity = document.getElementById("apples").value;
-  let errorParagraphLength = document.querySelectorAll(".appleDiv .error").length;
   if (appleQuantity == "" || appleQuantity < 0) {
     event.preventDefault();
+    let errorParagraphLength = document.querySelectorAll(".appleDiv .error").length;
     if (errorParagraphLength == 0) {
       document.querySelector(".appleDiv").innerHTML += "<p class='error'>Please give a positive numerical quantity</p>";
-    }
-  } else {
-    if (errorParagraphLength > 0) {
-      document.querySelector(".appleDiv").remove("<p class='error'></p>");
     }
   }
 
