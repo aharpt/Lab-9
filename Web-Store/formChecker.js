@@ -3,7 +3,7 @@ let submission = (event) => {
 
   // apples input
   let appleQuantity = document.getElementById("apples").value;
-  if (appleQuantity == "" || appleQuantity < 0) {
+  if (appleQuantity == "" || appleQuantity < 0 || isNaN(appleQuantity)) {
     event.preventDefault();
     let errorParagraphLength = document.querySelectorAll(".appleDiv .error").length;
     if (errorParagraphLength == 0) {
@@ -14,7 +14,7 @@ let submission = (event) => {
 
   // bananas input
   let bananaQuantity = document.getElementById("bananas").value;
-  if (bananaQuantity == "" || bananaQuantity < 0) {
+  if (bananaQuantity == "" || bananaQuantity < 0 || isNaN(bananaQuantity)) {
     event.preventDefault();
     let errorParagraphLength = document.querySelectorAll(".bananaDiv .error").length;
     if (errorParagraphLength == 0) {
@@ -24,7 +24,7 @@ let submission = (event) => {
 
   // pear input
   let pearQuantity = document.getElementById("pears").value;
-  if (pearQuantity == "" || pearQuantity < 0) {
+  if (pearQuantity == "" || pearQuantity < 0 || isNaN(pearQuantity)) {
     event.preventDefault();
     let errorParagraphLength = document.querySelectorAll(".pearDiv .error").length;
     if (errorParagraphLength == 0) {
