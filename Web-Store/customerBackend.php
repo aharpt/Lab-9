@@ -23,7 +23,7 @@
       $username = $_POST["username"];
       $password = $_POST["password"];
 
-      echo "<h3>Username: " . $username . "</h3>";
+      echo "<h3>Welcome, " . $username . "!</h3>";
       echo "<h3>Password: " . $password . "</h3>";
 
       // print receipt
